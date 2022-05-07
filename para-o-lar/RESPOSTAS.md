@@ -13,6 +13,7 @@ DELETE: operador que permite a deleção de dados. Esta operação é significat
  As operações CRUD são: Create, Read, Update/Replace, Updade/Modify, Delete.
 
  O protoclo HTTP funciona com os clintes enviando requests para os servers, e os servers respondendo a estes requests. As operações CRUD são enviadas através de requests HTTP, feitos através dos verbos. O CRUD é um acronímico que resume as quatro principais formas de intereção entre database e aplicações, ou seja:
+ 
                POST /users # Cria um usuario
                PUT /users/{id} # Atualiza o usuario
                PATCH  /users/{id} # Parcialmente atualiza o usuario
